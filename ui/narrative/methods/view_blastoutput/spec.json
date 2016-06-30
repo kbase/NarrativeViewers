@@ -1,0 +1,37 @@
+{
+  "name" : "View Blast Output",
+  "ver" : "1.0.0",
+  "authors" : [ ],
+  "contact" : "help@kbase.us",
+  "visble" : true,
+  "categories" : ["viewers"],
+  "widgets" : {
+    "input" : null,
+    "output" : "kbaseBlastOutput"
+  },
+  "parameters" : [ {
+    "id" : "blast_output_name",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ "GenomeUtil.BlastOutput" ]
+    }
+  } ],
+  "behavior" : {
+    "none" : {
+      "output_mapping" : [
+        {
+          "input_parameter": "blast_output_name",
+          "target_property": "blast_output_name"
+        },
+        {
+          "narrative_system_variable": "workspace",
+          "target_property": "workspaceName"
+        }
+      ]
+    }
+  }
+}

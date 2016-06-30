@@ -1,0 +1,40 @@
+#
+# Define basic display information
+#
+name     : View BLAST Output
+tooltip  : |
+    View the output of a BLAST query
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+suggestions :
+    apps:
+        related :
+            []
+        next :
+            []
+    methods:
+        related :
+            []
+        next :
+            []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    blast_output_name :
+        ui-name : |
+            BLAST Output
+        short-hint : |
+            the BLAST Output to view
+
+
+description : |
+    View BLAST Output
+

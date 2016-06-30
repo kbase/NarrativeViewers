@@ -3,9 +3,9 @@
 #
 name     : View Metabolic Model Details
 subtitle : |
-    Bring up a detailed view of your metabolic model within the narrative. [7]
+    Bring up a detailed view of a metabolic model within the narrative.
 tooltip  : |
-    Bring up a detailed view of your metabolic model within the narrative. [7]
+    Bring up a detailed view of a metabolic model within the narrative.
 
 screenshots :
     []
@@ -34,14 +34,14 @@ parameters :
         ui-name : |
             Metabolic Model
         short-hint : |
-            the metabolic model to view [7.1]
+            the metabolic model to view
         long-hint  : |
-            the metabolic model to view [7.1]
+            the metabolic model to view
 
 
 description : |
-    Bring up a detailed view of your metabolic model within the narrative. [7]
+    Bring up a detailed view of a metabolic model within the narrative.
 
 
 technical-description : |
-    Bring up a detailed view of your metabolic model within the narrative. [7]
+    Bring up a detailed view of a metabolic model within the narrative.

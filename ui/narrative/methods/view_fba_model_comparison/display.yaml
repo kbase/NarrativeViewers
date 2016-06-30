@@ -1,0 +1,47 @@
+#
+# Define basic display information
+#
+name     : View FBA Model Comparison
+subtitle : |
+    Displays a comparison of multiple FBA models.
+tooltip  : |
+    Displays a comparison of multiple FBA models.
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+suggestions :
+    apps:
+        related :
+            []
+        next :
+            []
+    methods:
+        related :
+            []
+        next :
+            []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    param0 :
+        ui-name : |
+            FBA Model Comparison
+        short-hint : |
+            the FBA Model Comparison to view
+        long-hint  : |
+            the FBA Model Comparison to view
+
+
+description : |
+    Displays a comparison of multiple FBA models.
+
+
+technical-description : |
+    Displays a comparison of multiple FBA models.

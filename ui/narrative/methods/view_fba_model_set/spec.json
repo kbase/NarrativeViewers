@@ -4,7 +4,7 @@
   "authors" : [ ],
   "contact" : "help@kbase.us",
   "visble" : true,
-  "categories" : ["viewers", "metabolic_modeling"],
+  "categories" : ["viewers"],
   "widgets" : {
     "input" : null,
     "output" : "kbaseTabTable"
