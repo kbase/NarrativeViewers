@@ -7,7 +7,7 @@
   "categories" : ["viewers"],
   "widgets" : {
     "input" : null,
-    "output" : "kbaseGenomeAnnotation"
+    "output" : "kbaseGenomeAnnotationViewer"
   },
   "parameters" : [ {
     "id" : "param0",
@@ -17,7 +17,7 @@
     "default_values" : [ "" ],
     "field_type" : "text",
     "text_options" : {
-      "valid_ws_types" : [ "kbaseGenomeAnnotations.GenomeAnnotation" ]
+      "valid_ws_types" : [ "KBaseGenomeAnnotations.GenomeAnnotation" ]
     }
   } ],
   "behavior" : {
