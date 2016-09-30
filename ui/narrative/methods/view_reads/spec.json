@@ -7,7 +7,7 @@
   "categories" : ["viewers"],
   "widgets" : {
     "input" : null,
-    "output" : "kbaseReadsView"
+    "output" : "kbaseReadsViewer"
   },
   "parameters" : [ {
     "id" : "param0",
