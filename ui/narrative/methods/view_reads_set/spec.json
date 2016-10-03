@@ -25,11 +25,11 @@
       "output_mapping" : [
         {
           "input_parameter": "param0",
-          "target_property": "id"
+          "target_property": "objId"
         },
         {
           "narrative_system_variable": "workspace",
-          "target_property": "ws"
+          "target_property": "wsId"
         }
       ]
     }
