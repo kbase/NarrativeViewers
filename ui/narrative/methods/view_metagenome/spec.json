@@ -5,6 +5,7 @@
   "contact" : "help@kbase.us",
   "visble" : true,
   "categories" : ["active","viewers"],
+  "app_type" : "viewer",
   "widgets" : {
     "input" : null,
     "output" : "MetagenomeView"

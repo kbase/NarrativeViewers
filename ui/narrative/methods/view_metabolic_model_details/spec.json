@@ -5,6 +5,7 @@
   "contact" : "help@kbase.us",
   "visble" : true,
   "categories" : ["inactive"],
+  "app_type" : "viewer",
   "widgets" : {
     "input" : null,
     "output" : "kbaseTabTable"

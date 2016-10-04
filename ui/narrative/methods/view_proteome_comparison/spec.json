@@ -5,6 +5,7 @@
   "contact" : "help@kbase.us",
   "visble" : true,
   "categories" : ["viewers", "comparative_genomics"],
+  "app_type" : "viewer",
   "widgets" : {
     "input" : null,
     "output" : "GenomeComparisonWidget"

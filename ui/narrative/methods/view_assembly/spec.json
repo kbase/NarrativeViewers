@@ -5,6 +5,7 @@
   "contact" : "help@kbase.us",
   "visble" : true,
   "categories" : ["viewers"],
+  "app_type" : "viewer",
   "widgets" : {
     "input" : null,
     "output" : "kbaseGenomeAnnotationAssembly"

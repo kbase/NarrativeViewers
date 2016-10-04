@@ -5,6 +5,7 @@
   "contact" : "help@kbase.us",
   "visible" : true,
   "categories" : ["viewers"],
+  "app_type" : "viewer",
   "widgets" : {
     "input" : null,
     "output" : "kbaseExpressionSampleTableNew"
