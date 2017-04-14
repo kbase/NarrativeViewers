@@ -1,0 +1,39 @@
+{
+  "name" : "View BinnedContigs",
+  "ver" : "1.0.0",
+  "authors" : [ ],
+  "contact" : "help@kbase.us",
+  "visble" : true,
+  "categories" : ["viewers"],
+  "app_type" : "viewer",
+  "widgets" : {
+    "input" : null,
+    "output" : "kbaseBinnedContigs"
+  },
+  "parameters" : [ {
+    "id" : "param0",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ "KBaseMetagenomes.BinnedContigs" ]
+    }
+  } ],
+  "behavior" : {
+    "none" : {
+      "output_mapping" : [
+        {
+          "input_parameter": "param0",
+          "target_property": "objRef",
+          "target_type_transform": "resolved-ref"
+        },
+        {
+          "narrative_system_variable": "workspace",
+          "target_property": "ws"
+        }
+      ]
+    }
+  }
+}
