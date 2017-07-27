@@ -33,7 +33,7 @@
     "none" : {
       "output_mapping" : [
         {
-          "input_parameter": "param0",
+          "input_parameter": "objRef",
           "target_property": "obj_ref",
         },
         {
