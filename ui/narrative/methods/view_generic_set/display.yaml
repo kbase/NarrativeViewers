@@ -1,0 +1,46 @@
+#
+# Define basic display information
+#
+name     : View Generic Set
+subtitle : |
+    View and explore a set object in your workspace. [5]
+tooltip  : |
+    View and explore a set object in your workspace. [5]
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+suggestions :
+    apps:
+        related :
+            []
+        next :
+            []
+    methods:
+        related :
+            []
+        next :
+            []
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    param0 :
+        ui-name : |
+            Set
+        short-hint : |
+            select the Sets you want to view [5.1]
+        long-hint  : |
+            select the Sets you want to view [5.1]
+
+
+description : |
+    View and explore a Sets object in your workspace. [5]
+
+
+technical-description : |
+    View and explore a Sets object in your workspace. [5]
