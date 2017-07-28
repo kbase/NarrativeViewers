@@ -34,7 +34,7 @@
       "output_mapping" : [
         {
           "input_parameter": "objRef",
-          "target_property": "obj_ref",
+          "target_property": "obj_ref"
         },
         {
           "narrative_system_variable": "workspace",
