@@ -8,7 +8,7 @@
   "app_type" : "viewer",
   "widgets" : {
     "input" : null,
-    "output" : "kbaseExpressionVolcanoPlot"
+    "output" : "kbaseDifferentialExpressionMatrixViewer"
   },
   "parameters" : [ {
     "id" : "objRef",
