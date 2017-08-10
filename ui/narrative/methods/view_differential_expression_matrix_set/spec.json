@@ -1,5 +1,5 @@
 {
-  "name" : "View Differential Expression Matrix",
+  "name" : "View Differential Expression Matrix Set",
   "ver" : "1.0.0",
   "authors" : [ ],
   "contact" : "help@kbase.us",
@@ -8,10 +8,10 @@
   "app_type" : "viewer",
   "widgets" : {
     "input" : null,
-    "output" : "kbaseDifferentialExpressionMatrixViewer"
+    "output" : "kbaseDifferentialExpressionMatrixSetViewer"
   },
   "parameters" : [ {
-    "id" : "objRef",
+    "id" : "objName",
     "optional" : false,
     "advanced" : false,
     "allow_multiple" : false,
@@ -19,7 +19,7 @@
     "field_type" : "text",
     "text_options" : {
       "valid_ws_types" : [
-        "KBaseFeatureValues.DifferentialExpressionMatrix"
+        "KBaseFeatureValues.DifferentialExpressionMatrixSet"
       ]
     }
   } ],
@@ -27,8 +27,8 @@
     "none" : {
       "output_mapping" : [
         {
-          "input_parameter": "objRef",
-          "target_property": "obj_ref"
+          "input_parameter": "objName",
+          "target_property": "objName"
         },
         {
           "narrative_system_variable": "workspace",
