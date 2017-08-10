@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : View Differential Expression Matrix
+name     : View Differential Expression Matrix Set
 subtitle : |
     View and explore a differential expression matrix in your workspace. [5]
 tooltip  : |
@@ -29,18 +29,18 @@ suggestions :
 # Configure the display and description of the parameters
 #
 parameters :
-    objRef :
+    objName :
         ui-name : |
             Set
         short-hint : |
-            select the Differential Expression Matrix you want to view [5.1]
+            select the Differential Expression Matrix Set you want to view [5.1]
         long-hint  : |
-            select the Differential Expression Matrix you want to view [5.1]
+            select the Differential Expression Matrix Set you want to view [5.1]
 
 
 description : |
-    View and explore a Differential Expression Matrix object in your workspace. [5]
+    View and explore a Differential Expression Matrix Set object in your workspace. [5]
 
 
 technical-description : |
-    View and explore a Differential Expression Matrix object in your workspace. [5]
+    View and explore a Differential Expression Matrix Set object in your workspace. [5]
