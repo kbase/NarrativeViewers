@@ -29,7 +29,7 @@ suggestions :
 # Configure the display and description of the parameters
 #
 parameters :
-    objName :
+    param0 :
         ui-name : |
             Set
         short-hint : |
