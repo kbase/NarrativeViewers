@@ -1,4 +1,4 @@
-FROM kbase/kbase:sdkbase.latest
+FROM kbase/kbase:sdkbase2.latest
 MAINTAINER KBase Developer
 # -----------------------------------------
 
@@ -7,8 +7,10 @@ MAINTAINER KBase Developer
 
 # RUN apt-get update
 
-RUN sudo apt-get -y install python-dev libffi-dev libssl-dev \
-    && pip install pyopenssl ndg-httpsclient pyasn1 \
+RUN pip install cffi --upgrade \
+    && pip install pyopenssl --upgrade \
+    && pip install ndg-httpsclient --upgrade \
+    && pip install pyasn1 --upgrade \
     && pip install requests --upgrade \
     && pip install 'requests[security]' --upgrade
 
@@ -16,7 +18,7 @@ RUN sudo apt-get -y install python-dev libffi-dev libssl-dev \
 
 COPY ./ /kb/module
 RUN mkdir -p /kb/module/work
-RUN chmod 777 /kb/module
+RUN chmod -R a+rw /kb/module
 
 WORKDIR /kb/module
 
