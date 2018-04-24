@@ -18,7 +18,7 @@ RUN pip install cffi --upgrade \
 
 COPY ./ /kb/module
 RUN mkdir -p /kb/module/work
-RUN chmod 777 /kb/module
+RUN chmod -R a+rw /kb/module
 
 WORKDIR /kb/module
 
