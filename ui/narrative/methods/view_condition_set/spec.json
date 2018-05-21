@@ -1,0 +1,38 @@
+{
+  "name" : "View ConditionSet",
+  "ver" : "1.0.0",
+  "authors" : [ ],
+  "contact" : "help@kbase.us",
+  "visble" : true,
+  "categories" : ["viewers"],
+  "app_type" : "viewer",
+  "widgets" : {
+    "input" : null,
+    "output" : "kbaseConditionSetViewer"
+  },
+  "parameters" : [ {
+    "id" : "param0",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ "KBaseExperiments.ConditionSet" ]
+    }
+  } ],
+  "behavior" : {
+    "none" : {
+      "output_mapping" : [
+        {
+          "input_parameter": "param0",
+          "target_property": "obj_ref"
+        },
+        {
+          "narrative_system_variable": "workspace",
+          "target_property": "wsName"
+        }
+      ]
+    }
+  }
+}
