@@ -1,0 +1,35 @@
+#
+# Define basic display information
+#
+name     : View Generic Matrix
+
+tooltip  : |
+    View Generic Matrix
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    param0 :
+        ui-name : |
+            Generic Matrix
+        short-hint : |
+            Select an Generic Matrix to view
+
+
+description : |
+    View and explore an Generic Matrix in your Narrative.
+
