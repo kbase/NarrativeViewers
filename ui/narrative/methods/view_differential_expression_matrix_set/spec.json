@@ -19,7 +19,8 @@
     "field_type" : "text",
     "text_options" : {
       "valid_ws_types" : [
-        "KBaseSets.DifferentialExpressionMatrixSet"
+        "KBaseSets.DifferentialExpressionMatrixSet",
+        "KBaseFeatureValues.DifferentialExpressionMatrix"
       ]
     }
   } ],
