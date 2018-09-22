@@ -1,0 +1,49 @@
+#
+# Define basic display information
+#
+name     : View interactive heatmap
+subtitle : |
+    View interactive heatmap
+tooltip  : |
+    View interactive heatmap 
+
+icon: kb_expr-yellow.png
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+suggestions :
+    apps:
+        related :
+            []
+        next :
+            []
+    methods:
+        related :
+            []
+        next :
+            []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    param0 :
+        ui-name : |
+            Expression matrix
+        short-hint : |
+           Expression matrix 
+        long-hint  : |
+           Expression matrix 
+
+
+description : |
+    View heatmap 
+
+
+technical-description : |
+    View heatmap 
