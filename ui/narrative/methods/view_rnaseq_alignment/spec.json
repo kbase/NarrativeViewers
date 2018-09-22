@@ -8,7 +8,7 @@
   "app_type" : "viewer",
   "widgets" : {
     "input" : null,
-    "output" : "kbaseRNASeqPieNew"
+    "output" : "kbaseAlignment"
   },
   "parameters" : [ {
     "id" : "param0",
