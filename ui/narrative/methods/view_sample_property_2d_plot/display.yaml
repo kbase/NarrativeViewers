@@ -52,8 +52,14 @@ parameters :
 
 
 description : |
-    This method displays 2D plot with a distribution of all samples according to values of two selected properties 
+    This method displays 2D plot with a distribution of all samples according to values of two selected properties
 
 
 technical-description : |
     View Sample Properties 2D Plot
+
+publications :
+    -
+        display-text: |
+            Arkin AP, Cottingham RW, Henry CS, Harris NL, Stevens RL, Maslov S, et al. KBase: The United States Department of Energy Systems Biology Knowledgebase. Nature Biotechnology. 2018;36: 566. doi: 10.1038/nbt.4163
+        link: https://www.nature.com/articles/nbt.4163

@@ -2,6 +2,14 @@
 -----------------------------------------
 This KBase module packages viewers for various data types
 
+### VERSION: 1.0.6
+------------------------------------------
+__NEW FEATURES:__
+- none
+
+__UPDATED FEATURES / MAJOR BUG FIXES:__
+- added KBase paper citation in PLOS format
+
 
 ### VERSION: 1.0.1 (Released 10/17/2017)
 ------------------------------------------
