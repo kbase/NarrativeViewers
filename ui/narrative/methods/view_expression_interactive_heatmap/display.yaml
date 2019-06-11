@@ -1,11 +1,11 @@
 #
 # Define basic display information
 #
-name     : View interactive heatmap
+name     : View Interactive Heatmap
 subtitle : |
-    View interactive heatmap
+
 tooltip  : |
-    View interactive heatmap 
+    Allows users to explore an ExpressionMatrix as an interactive heatmap.
 
 icon: kb_expr-yellow.png
 
@@ -34,16 +34,15 @@ suggestions :
 parameters :
     param0 :
         ui-name : |
-            Expression matrix
+            ExpressionMatrix
         short-hint : |
-           Expression matrix 
-        long-hint  : |
-           Expression matrix 
+           Select the ExpressionMatrix to visualize.
 
 
 description : |
-    View heatmap 
+  <p><p>This is a visualization App to view and explore an ExpressionMatrix as a heatmap. Features are displayed as rows, and the conditions as columns. Mouse over the heatmap cells to view the expression value for a given feature and a condition.</p>
 
+  <p>The colors in the heatmap range from white (minimum expression) to red (maximum expression) as depicted in the vertical color scale located to the right of the heatmap.</p>
 
 technical-description : |
-    View heatmap 
+    View heatmap
