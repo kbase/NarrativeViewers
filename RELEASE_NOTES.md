@@ -2,6 +2,15 @@
 -----------------------------------------
 This KBase module packages viewers for various data types
 
+### VERSION: 1.0.7
+------------------------------------------
+__NEW FEATURES:__
+- none
+
+__UPDATED FEATURES / MAJOR BUG FIXES:__
+- updated docs
+
+
 ### VERSION: 1.0.6
 ------------------------------------------
 __NEW FEATURES:__
