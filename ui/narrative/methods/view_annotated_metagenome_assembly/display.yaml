@@ -3,9 +3,9 @@
 #
 name     : View Annotated Metagenome Assembly
 subtitle : |
-    View and explore an Annotated Metagenome Assembly object in your workspace. [5]
+    View and explore an Annotated Metagenome Assembly object in your workspace.
 tooltip  : |
-    View and explore an Annotated Metagenome Assembly object in your workspace. [5]
+    View and explore an Annotated Metagenome Assembly object in your workspace.
 
 screenshots :
     []
@@ -33,14 +33,14 @@ parameters :
         ui-name : |
             Annotated Metagenome Assembly
         short-hint : |
-            select the genome you want to view [5.1]
+            select the Annotated Metagenome Assembly you want to view
         long-hint  : |
-            select the genome you want to view [5.1]
+            select the Annotated Metagenome Assembly you want to view
 
 
 description : |
-    View and explore an Annotated Metagenome Assembly object in your workspace. [5]
+    View and explore an Annotated Metagenome Assembly object in your workspace.
 
 
 technical-description : |
-    View and explore an Annotated Metagenome Assembly object in your workspace. [5]
+    View and explore an Annotated Metagenome Assembly object in your workspace.
