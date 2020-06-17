@@ -1,0 +1,47 @@
+#
+# Define basic display information
+#
+name     : View Variation
+subtitle : |
+    View Variation 
+tooltip  : |
+    View Variation
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+suggestions :
+    apps:
+        related :
+            []
+        next :
+            []
+    methods:
+        related :
+            []
+        next :
+            []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    param0 :
+        ui-name : |
+            VariationID
+        short-hint : |
+            a Variation id
+        long-hint  : |
+            a Variation id
+
+
+description : |
+    View a Variation from your workspace
+
+
+technical-description : |
+    View a Variation from your workspace
