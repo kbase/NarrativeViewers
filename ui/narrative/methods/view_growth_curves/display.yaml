@@ -67,7 +67,7 @@ parameters :
             Show values in log scale
 
 description : |
-    View and explore growth curves. This method takes a GrowthMatrix object as input and displays one or several growth curves.
+   <b>This app has been deactivated because it is failing and is seldom used. </b> View and explore growth curves. This method takes a GrowthMatrix object as input and displays one or several growth curves.
 
 
 technical-description : |
