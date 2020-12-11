@@ -2,6 +2,10 @@
 -----------------------------------------
 This KBase module packages viewers for various data types
 
+### VERSION: 1.0.9
+------------------------------------------
+Deactivate View Growth Curves
+
 ### VERSION: 1.0.7
 ------------------------------------------
 __NEW FEATURES:__
