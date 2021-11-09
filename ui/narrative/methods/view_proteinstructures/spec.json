@@ -1,0 +1,38 @@
+{
+  "name" : "View ProteinStructures",
+  "ver" : "1.0.0",
+  "authors" : [ ],
+  "contact" : "http://kbase.us/contact-us/",
+  "visble" : true,
+  "categories" : ["active", "viewers"],
+  "app_type" : "viewer",
+  "widgets" : {
+    "input" : null,
+    "output" : "KBaseProteinStructuresView"
+  },
+  "parameters" : [ {
+    "id" : "proteinstructures",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ "KBaseStructure.ProteinStructures" ]
+    }
+  } ],
+  "behavior" : {
+    "none" : {
+      "output_mapping" : [
+        {
+          "input_parameter": "proteinstructures",
+          "target_property": "id"
+        },
+        {
+          "narrative_system_variable": "workspace_id",
+          "target_property": "ws"
+        }
+      ]
+    }
+  }
+}
