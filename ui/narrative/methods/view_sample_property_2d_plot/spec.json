@@ -2,8 +2,8 @@
   "name" : "View Sample Property 2D Plot",
   "ver" : "1.0.0",
   "authors" : [ ],
-  "contact" : "help@kbase.us",
-  "visble" : true,
+  "contact" : "https://www.kbase.us/support/",
+  "visible" : true,
   "categories" : ["active","util","expression"],
   "app_type" : "viewer",
   "widgets" : {

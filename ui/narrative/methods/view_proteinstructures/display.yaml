@@ -1,0 +1,47 @@
+
+#
+# Define basic display information
+#
+name     : View ProteinStructures
+subtitle : |
+    View and explore a ProteinStructures object in your workspace.
+tooltip  : |
+    View and explore a ProteinStructures object in your workspace.
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+suggestions :
+    apps:
+        related :
+            []
+        next :
+            []
+    methods:
+        related :
+            []
+        next :
+            []
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    proteinstructures :
+        ui-name : |
+            ProteinStructures
+        short-hint : |
+            select the ProteinStructures you want to view
+        long-hint  : |
+            select the ProteinStructures you want to view
+
+
+description : |
+    View and explore a ProteinStructures object in your workspace.
+
+
+technical-description : |
+    View and explore a ProteinStructures object in your workspace.

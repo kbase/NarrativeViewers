@@ -2,8 +2,8 @@
   "name" : "View Metabolic Model Details",
   "ver" : "1.0.0",
   "authors" : [ ],
-  "contact" : "help@kbase.us",
-  "visble" : true,
+  "contact" : "https://www.kbase.us/support/",
+  "visible" : true,
   "categories" : ["inactive"],
   "app_type" : "viewer",
   "widgets" : {
