@@ -2,7 +2,7 @@
   "name" : "View RNASeq Sample",
   "ver" : "1.0.0",
   "authors" : [ ],
-  "contact" : "help@kbase.us",
+  "contact" : "https://www.kbase.us/support/",
   "visible" : true,
   "categories" : ["viewers"],
   "app_type" : "viewer",

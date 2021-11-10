@@ -30,7 +30,7 @@ suggestions :
 # Configure the display and description of the parameters
 #
 parameters :
-    param0 :
+    proteinstructures :
         ui-name : |
             ProteinStructures
         short-hint : |
