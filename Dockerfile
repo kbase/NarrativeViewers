@@ -1,4 +1,4 @@
-FROM kbase/kbase:sdkbase2.latest
+FROM kbase/sdkbase2:python
 MAINTAINER KBase Developer
 # -----------------------------------------
 
@@ -7,7 +7,8 @@ MAINTAINER KBase Developer
 
 # RUN apt-get update
 
-RUN pip install cffi --upgrade \
+RUN pip install --upgrade pip \
+    && pip install cffi --upgrade \
     && pip install pyopenssl --upgrade \
     && pip install ndg-httpsclient --upgrade \
     && pip install pyasn1 --upgrade \
