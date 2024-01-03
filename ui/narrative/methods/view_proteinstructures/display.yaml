@@ -29,14 +29,7 @@ suggestions :
 #
 # Configure the display and description of the parameters
 #
-parameters :
-    proteinstructures :
-        ui-name : |
-            ProteinStructures
-        short-hint : |
-            select the ProteinStructures you want to view
-        long-hint  : |
-            select the ProteinStructures you want to view
+parameters : {}
 
 
 description : |

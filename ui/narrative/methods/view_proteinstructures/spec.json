@@ -1,6 +1,6 @@
 {
   "name" : "View ProteinStructures",
-  "ver" : "1.0.0",
+  "ver" : "2.0.0",
   "authors" : [ ],
   "contact" : "https://www.kbase.us/support/",
   "visible" : true,
@@ -8,29 +8,19 @@
   "app_type" : "viewer",
   "widgets" : {
     "input" : null,
-    "output" : "KBaseProteinStructuresView"
+    "output" : "ServiceWidget"
   },
-  "parameters" : [ {
-    "id" : "proteinstructures",
-    "optional" : false,
-    "advanced" : false,
-    "allow_multiple" : false,
-    "default_values" : [ "" ],
-    "field_type" : "text",
-    "text_options" : {
-      "valid_ws_types" : [ "KBaseStructure.ProteinStructures" ]
-    }
-  } ],
+  "parameters" : [ ],
   "behavior" : {
     "none" : {
       "output_mapping" : [
         {
-          "input_parameter": "proteinstructures",
-          "target_property": "id"
+          "constant_value": "eapearsonWidgetTest10",
+          "target_property": "service_module_name"
         },
         {
-          "narrative_system_variable": "workspace_id",
-          "target_property": "ws"
+          "constant_value": "protein_structures_viewer",
+          "target_property": "widget_name"
         }
       ]
     }
