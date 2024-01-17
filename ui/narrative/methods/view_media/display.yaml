@@ -29,15 +29,8 @@ suggestions :
 #
 # Configure the display and description of the parameters
 #
-parameters :
-    param0 :
-        ui-name : |
-            Media ID
-        short-hint : |
-            Media type [9.1]
-        long-hint  : |
-            Media type [9.1]
-
+parameters : {}
+    
 
 description : |
     Bring up a detailed view of a Media set within the narrative. [9]
